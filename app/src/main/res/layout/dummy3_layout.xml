@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/aadhaar_dummy_3"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="-14dp"
+            android:layout_marginTop="97dp"
+            android:rotation="-90"
+            android:text="07/03/1980"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tony_stark"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="114dp" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="130dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="114dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="టోనీ స్టార్క్"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tony Stark"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="పుట్టిన తేది / DOB: "
+                    android:textSize="10dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="29/05/1970"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="పురుషుడు / Male"
+                android:textSize="10dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="29dp"
+            android:text="3000 4921 2000"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/DAadhaar_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/aadhaar_dummy_3"
+        >
+
+        <TextView
+            android:id="@+id/Dissued_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="-16dp"
+            android:layout_marginTop="97dp"
+            android:rotation="-90"
+            android:text="07/03/1980"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/Dpassport_image"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tony_stark"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="114dp" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="130dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="114dp">
+
+            <TextView
+                android:id="@+id/Dtelugu_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="టోనీ స్టార్క్"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/Denglish_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tony Stark"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="పుట్టిన తేది / DOB: "
+                    android:textSize="10dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/Ddate_of_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="29/05/1970"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dgender_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="పురుషుడు / Male"
+                android:textSize="10dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Daadhaar_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="29dp"
+            android:text="3000 4921 2000"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
